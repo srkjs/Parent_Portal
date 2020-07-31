@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loginactivity.AdminActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="#ffffff"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logo2" />
+
+
+
+    <Button
+        android:id="@+id/button_student"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="ADD/Update New Student"/>
+
+
+    <Button
+        android:id="@+id/button_attendance"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="UPDATE ATTENDANCE"/>
+
+    <Button
+        android:id="@+id/button_grades"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="UPDATE GRADES"/>
+
+    <Button
+        android:id="@+id/button_schedule"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="UPDATE SCHEDULE"/>
+
+    <Button
+        android:id="@+id/button_studentDetails"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="Student Details"/>
+
+    <Button
+        android:id="@+id/button_passwords"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#2196F3"
+        android:textColor="#ffffff"
+        android:text="PASSWORD REQUESTS"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:text="LOGOUT"/>
+
+</LinearLayout>

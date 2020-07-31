@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loginactivity.AttendanceActivity"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="#ffffff"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="695dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/regno"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/regno"
+            android:hint="Student Registration Number"
+            android:inputType="number"
+            android:paddingLeft="2dp" />
+
+        <EditText
+            android:id="@+id/attendance"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/attendance"
+            android:hint="Attended Periods"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/total"
+            android:hint="Total Periods"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/portal"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/portal"
+            android:hint="Portal Number"
+            android:inputType="number" />
+
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#2196F3"
+            android:text="UPDATE ATTENDANCE"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textview_back"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Go Back?"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

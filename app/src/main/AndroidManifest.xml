@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginactivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ppicon"
+        android:label="Parent Portal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StudentDetails"></activity>
+        <activity android:name=".ContactTeacher" />
+        <activity android:name=".CheckSchedule" />
+        <activity android:name=".CheckGrades" />
+        <activity android:name=".CheckAttendance" />
+        <activity android:name=".PassRequests" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".GradesActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

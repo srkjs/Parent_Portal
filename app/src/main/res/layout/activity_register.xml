@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.loginactivity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:text="Request a new password!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/person"
+        android:hint="@string/regno"
+        android:inputType="number"
+        android:paddingLeft="2dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/mail"
+        android:hint="@string/regemail"
+        android:inputType="textEmailAddress"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/phone"
+        android:hint="@string/regphone"
+        android:inputType="number" />
+    <Button
+        android:id="@+id/button_request"
+        android:layout_width="206dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#04ea00"
+        android:textColor="#ffffff"
+        android:text="@string/requestnewpass"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:textAlignment="viewEnd"
+            android:id="@+id/textview_login"
+            android:layout_width="206dp"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="@string/already_registered"
+            android:textColor="#04ea00"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

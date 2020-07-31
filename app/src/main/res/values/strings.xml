@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Go back?</string>
+    <string name="welcome_user">Welcome Parent</string>
+    <string name="regno">Student Register No</string>
+    <string name="regemail">Registered E-mail</string>
+    <string name="regphone">Registered Mobile</string>
+    <string name="requestnewpass">Request</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="title_activity_login2">Admin Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string-array name="standard_arrays">
+        <item>Select the Standard of student</item>
+        <item>Standard - 1</item>
+        <item>Standard - 2</item>
+        <item>Standard - 3</item>
+        <item>Standard - 4</item>
+        <item>Standard - 5</item>
+        <item>Standard - 6</item>
+        <item>Standard - 7</item>
+        <item>Standard - 8</item>
+        <item>Standard - 9</item>
+        <item>Standard - 10</item>
+        <item>Standard - 11</item>
+        <item>Standard - 12</item>
+    </string-array>
+
+    <string-array name="standard_arrays_schedule">
+        <item>Send to Whole Class/Privately</item>
+        <item>Send Privately</item>
+        <item>Standard - 1</item>
+        <item>Standard - 2</item>
+        <item>Standard - 3</item>
+        <item>Standard - 4</item>
+        <item>Standard - 5</item>
+        <item>Standard - 6</item>
+        <item>Standard - 7</item>
+        <item>Standard - 8</item>
+        <item>Standard - 9</item>
+        <item>Standard - 10</item>
+        <item>Standard - 11</item>
+        <item>Standard - 12</item>
+    </string-array>
+
+</resources>
